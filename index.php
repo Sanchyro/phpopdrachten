@@ -10,7 +10,7 @@
 <html lang="en">
     <head>
         <title>PHP Opdrachten</title>
-        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="../css/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -81,6 +81,3 @@
         </aside>
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
-        </main>
-    </body>
-</html>
