@@ -1,3 +1,15 @@
+/* Importeren van de font */
+@font-face {
+    font-family: "Itim";
+    src: url("../fonts/Itim-Regular.ttf");
+}
+
+/* Het zetten van de font */
+*{
+    font-family: "Itim";
+    text-decoration: none;
+}
+
 /* Removing the default margin from the body */
 body {
     margin: 0;
@@ -5,8 +17,8 @@ body {
 
 /* Configuring the header */
 header{
-    height: 5vh;
-    background-color: rgb(255, 46, 46);
+    height: 6vh;
+    background-color: /*#7356D5*/ #001a4d;
     color: white;
     text-align: center;
     letter-spacing: 2px;
@@ -20,23 +32,43 @@ header *{
 /* Setting the sidebar and content next to eachother */
 aside,
 main{
-    height: 95vh;
+    height: 94vh;
     overflow-y: auto;
     float: left;
 }
 
 aside{
+    color: white;
     width: 19%;
     margin-right: 1%;
     overflow-y: hidden;
-    background-color: rgb(189, 189, 189);
+    background: linear-gradient(#7356D5, #6047b5);
+}
+
+aside h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin:1px 0 0 0;
 }
 
 aside a{
-    text-decoration: none;
-    color: black;
+    color: inherit;
+}
+
+ul{
+    list-style-type: none;
 }
 
 main{
     width: 80%;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #6047b5;
+    color: white;
+    text-align: center;
 }

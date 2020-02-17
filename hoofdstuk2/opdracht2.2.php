@@ -9,7 +9,8 @@
 
     <!-- Include the sidebar and header -->
 <?php
-include("../index.php");
+include("../includes/header.php");
+include("../includes/variabelen.php.php");
 ?>
 
     <!-- The code -->
@@ -35,4 +36,8 @@ echo "<p>$text5 $text4 $text2 $text3</p>";
 <?php
 echo "<p>$text1, $text3 $text4, $text8 $text6 $text2?</p>";
 echo "<p>$text7 $text5 $text4 $text9 $text2 $text10!</p>";
+?>
+
+<?php
+include("../includes/footer.php");
 ?>

@@ -9,8 +9,13 @@
 
 <!-- Include the sidebar and header -->
 <?php
-    include("../index.php");
+    include("../includes/header.php");
+    include("../includes/variabelen.php.php");
 ?>
 
 <!-- The code -->
 <p><?php echo "Hello World!"; ?></p>
+
+<?php
+    include("../includes/footer.php");
+?>
