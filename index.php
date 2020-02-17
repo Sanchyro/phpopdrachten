@@ -10,7 +10,7 @@
 <html lang="en">
     <head>
         <title>PHP Opdrachten</title>
-        <link href="../css/style.css" type="text/css" rel="stylesheet">
+        <link href=http/css/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <header>

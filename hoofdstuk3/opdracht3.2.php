@@ -137,6 +137,79 @@ include("../includes/variabelen.php");
             </tr>
         </tbody>
     </table>
+
+<?php
+    $countryName= "nederland";
+    $currentAge = 17;
+
+    echo "<p>Je woont in " . $countryName . " en je bent " . $currentAge . " jaar oud.</p>";
+
+    //Belgie
+    $belgieLaag = 16;
+    $belgieHoog = 18;
+
+    //Bulgarije
+    $bulgarijeLaag = 18;
+    $bulgarijeHoog = 18;
+
+    //Cyprus
+    $cyprusLaag = 17;
+    $cyprusHoog = 17;
+
+    //Nederland
+    $nederlandLaag = 18;
+    $nederlandHoog = 18;
+
+    //Zweden
+    $zwedenLaag = 18;
+    $zwedenHoog = 20;
+
+    if($countryName == "belgie"){
+        //Als je in belgie woont
+        if($currentAge < $belgieLaag)
+            echo "Je mag hier geen drank drinken.";
+        if($currentAge >= $belgieLaag && $currentAge < $belgieHoog)
+            echo "Je mag hier zwak drank drinken.";
+        if($currentAge >= $belgieHoog)
+            echo "Je mag hier alle drank drinken.";
+
+    } elseif($countryName == "bulgarije"){
+        //Als je in bulgarije woont
+        if($currentAge < $bulgarijeLaag)
+            echo "Je mag hier geen drank drinken.";
+        if($currentAge >= $bulgarijeLaag && $currentAge < $bulgarijeHoog)
+            echo "Je mag hier zwak drank drinken.";
+        if($currentAge >= $bulgarijeHoog)
+            echo "Je mag hier alle drank drinken.";
+
+    } elseif($countryName == "cyprus"){
+        //Als je in cyprus woont
+        if($currentAge < $cyprusLaag)
+            echo "Je mag hier geen drank drinken.";
+        if($currentAge >= $cyprusLaag && $currentAge < $cyprusHoog)
+            echo "Je mag hier zwak drank drinken.";
+        if($currentAge >= $cyprusHoog)
+            echo "Je mag hier alle drank drinken.";
+
+    } elseif($countryName == "nederland"){
+        //Als je in nederland woont
+        if($currentAge < $nederlandLaag)
+            echo "Je mag hier geen drank drinken.";
+        if($currentAge >= $nederlandLaag && $currentAge < $nederlandHoog)
+            echo "Je mag hier zwak drank drinken.";
+        if($currentAge >= $nederlandHoog)
+            echo "Je mag hier alle drank drinken.";
+
+    } elseif($countryName == "zweden"){
+        //Als je in zweden woont
+        if($currentAge < $zwedenLaag)
+            echo "Je mag hier geen drank drinken.";
+        if($currentAge >= $zwedenLaag && $currentAge < $zwedenHoog)
+            echo "Je mag hier zwak drank drinken.";
+        if($currentAge >= $zwedenHoog)
+            echo "Je mag hier alle drank drinken.";
+    }
+?>
 <?php
     include("../includes/footer.php.php");
 ?>
