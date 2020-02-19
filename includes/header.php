@@ -2,7 +2,7 @@
 <html lang="nl">
     <head>
         <title>PHP Opdrachten</title>
-        <link href="../css/style.css" type="text/css" rel="stylesheet">
+        <link href="/phpopdrachten/css/style.css" type="text/css" rel="stylesheet">
         <meta charset="utf-8">
     </head>
     <body>

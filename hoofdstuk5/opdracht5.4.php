@@ -9,9 +9,9 @@
 
     <!-- Include the sidebar and header -->
 <?php
-include("includes/header.php");
-include("includes/variabelen.php");
-include("includes/menu.php");
+include("../includes/header.php");
+include("../includes/variabelen.php");
+include("../includes/menu.php");
 ?>
 
     <main id="wrapper">
@@ -20,5 +20,5 @@ include("includes/menu.php");
     </main>
 
 <?php
-include("includes/footer.php");
+include("../includes/footer.php");
 ?>
