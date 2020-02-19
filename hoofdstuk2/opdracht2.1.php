@@ -10,11 +10,14 @@
 <!-- Include the sidebar and header -->
 <?php
     include("../includes/header.php");
-    include("../includes/variabelen.php.php");
+    include("../includes/variabelen.php");
+    include("../includes/menu.php");
 ?>
-
-<!-- The code -->
-<p><?php echo "Hello World!"; ?></p>
+    <main id="wrapper">
+        <h2>Uitwerkingen</h2>
+        <!-- Code -->
+        <p><?php echo "Hello World!"; ?></p>
+    </main>
 
 <?php
     include("../includes/footer.php");
