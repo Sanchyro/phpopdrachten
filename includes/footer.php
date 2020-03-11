@@ -5,11 +5,11 @@
             $time = "Goedendag";
             if($uur >= 0 && $uur < 5)
                 $time = "Goedennacht";
-            else if($uur >= 5 && $uur < 12)
+            elseif($uur >= 5 && $uur < 12)
                 $time = "Goedenochtend";
-            else if($uur >= 12 && $uur < 17)
+            elseif($uur >= 12 && $uur < 17)
                 $time = "Goedenmiddag";
-            else if($uur >= 17 && $uur < 24)
+            elseif($uur >= 17 && $uur < 24)
                 $time = "Goedenavond";
 
             echo $time;

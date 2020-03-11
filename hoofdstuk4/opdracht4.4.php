@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Sanchyro Eijkemans
- * Date: XX-XX-XXXX
- * Time: XX:XX
- * File: opdrachtX.X.php
+ * Date: 11-03-2020
+ * Time: 13:55
+ * File: opdracht4.4php
  */
 ?>
 
@@ -16,7 +16,12 @@ include("../includes/menu.php");
 
     <main id="wrapper">
         <h2>Uitwerkingen</h2>
-        <!-- Code -->
+        <?php
+            for($day = 1;$day<8;$day++){
+                $time = strtotime("+" . ($day-1) . " days");
+                echo "Dag " . $day . " is " . date("l", $time) . " " . date("d-m-Y", $time) . "<br>";
+            }
+        ?>
     </main>
 
 <?php
