@@ -15,7 +15,7 @@ include("../../includes/menu.php");
 ?>
 
     <main id="wrapper">
-        <h2>Uitwerkingen</h2>
+        <h2>Uitwerkingen</h2>g
         <form action="form_data.php" method="get">
             <label for="company">Bedrijfsnaam:</label> <input type="text" name="company" id="company"><br>
             <label for="firstname">Voornaam:</label> <input type="text" name="firstname" id="firstname"><br>
